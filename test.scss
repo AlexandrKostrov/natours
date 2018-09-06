@@ -1,0 +1,18 @@
+$color-primary: #f9ed69;  //yellow
+$color-secondary: #f08a5d;  //orange
+$color-tertiary: #b83b5e;  //pink
+$color-text-dark: #333;  //dark-grey
+$color-text-light: #eee;  //white
+
+@mixin style-link-text {
+    text-decoration: none;
+   text-transform: uppercase;
+   color: $color-text-light;
+ }
+
+a {
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    @include style-link-text;
+  }
+

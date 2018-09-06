@@ -1,0 +1,52 @@
+#vov .bob .multi{
+    background-color: green;
+}
+
+.multi {
+    background-color: red !important;
+}
+
+.root {
+    width: 300px;
+    height: 200px; 
+    top: 30%;
+    left: 40%;
+    position: absolute;
+    border: solid red 10px;
+    background-color: seagreen;
+    text-align: center;
+}
+
+.child {
+    height:100px;
+    width: 100px;
+    border: solid blue 10px;
+    background-color: crimson;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.but {
+   display: block;
+   position: absolute;
+    width:40px;
+    height: 40px;
+    top: 50%;
+}
+
+
+.outer {
+    width: 800px;
+    height: 800px;
+    background-color: orangered;
+    position: relative;
+  }
+
+  .inner {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+    margin: 40px 140px;
+    position: absolute;
+  }

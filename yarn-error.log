@@ -1,0 +1,39 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe D:\Program Files (x86)\Yarn\bin\yarn.js --v
+
+PATH: 
+  D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\User\bin;C:\Program Files (x86)\Intel\TXE Components\TCS;C:\Program Files\Intel\TXE Components\TCS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\dotnet;D:\Program Files\nodejs;D:\Program Files (x86)\Yarn\bin;D:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6;C:\Users\User\AppData\Roaming\npm;D:\Program Files\Microsoft VS Code\bin;C:\Users\User\AppData\Local\Yarn\bin;D:\USR\apache;D:\USR\apache\bin;D:\USR\php
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "landing page for natours",
+    "main": "index.js",
+    "scripts": {
+      "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "node-sass": "^4.9.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, lstat 'C:\Users\User\Desktop\projects\CSS\Natours\node_modules\abbrev'
